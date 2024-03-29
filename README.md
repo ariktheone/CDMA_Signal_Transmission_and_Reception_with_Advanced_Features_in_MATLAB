@@ -24,7 +24,11 @@ This MATLAB project demonstrates CDMA signal transmission and reception, featuri
 
 4. **Signal Visualization:**
    - Original and received signals are plotted together for optimal SNR.
+     ![Original and received signals](/CDMA_output_images/Figure_2.png)
+     
    - Power Spectral Density (PSD) and histograms of signals are visualized.
+     ![Power Structural Density](CDMA_output_images/Figure_3.png)
+     ![Original Vs Regived Singal Histogram](CDMA_output_images/Figure_4.png)
 
 5. **Diversity Techniques:**
    - Maximal Ratio Combining (MRC) is applied to improve signal reception.
@@ -33,11 +37,11 @@ This MATLAB project demonstrates CDMA signal transmission and reception, featuri
 This project aims to understand CDMA system performance under different SNR levels by analyzing BER, exploring diversity techniques, and visualizing signal characteristics.
 
 ### Unique Features
-1. **BER Analysis:** Provides insights into CDMA system BER performance under varying SNR conditions.
+1. **BER Analysis:** Provides insights into CDMA system BER performance under varying SNR conditions.![BER Vs SNR graph](/CDMA_output_images/Figure_1.png)
    
 2. **Signal Visualization:** Offers visual representations of original and received signals for better understanding.
 
-3. **Diversity Techniques:** Implements MRC to enhance signal reception in noisy environments.
+3. **Diversity Techniques:** Implements MRC to enhance signal reception in noisy environments.![Original Vs MCR reciver signal graph](/CDMA_output_images/Figure_5.png)
 
 ### Examples
 Suppose 10 users transmit 100 bits each with a maximum SNR of 20 dB. This project can analyze BER and visualize signal characteristics for this scenario.
