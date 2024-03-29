@@ -25,14 +25,19 @@ This MATLAB project demonstrates CDMA signal transmission and reception, featuri
 4. **Signal Visualization:**
    - Original and received signals are plotted together for optimal SNR.
      ![Original and received signals](/CDMA_output_images/Figure_2.png)
+     
      This set of plots displays the original binary signals (in blue) and the received signals (in red) for each user. It helps compare the transmitted signals with the signals received at the receiver end. Ideally, the received signals should closely match the original signals, indicating successful transmission.
+
      
    - Power Spectral Density (PSD) and histograms of signals are visualized.
      ![Power Structural Density](CDMA_output_images/Figure_3.png)
+     
      These plots show the Power Spectral Density (PSD) of the received signals for each user. PSD represents the distribution of signal power over different frequencies. It helps analyze the frequency components present in the received signals, indicating the spectral characteristics of the transmitted data.
      
      ![Original Vs Regived Singal Histogram](CDMA_output_images/Figure_4.png)
+     
      These histograms display the distribution of signal values for both the original (blue) and received (red) signals for each user. It provides insights into the signal amplitude distribution, indicating whether the received signals maintain the characteristics of the original signals.
+
 
 5. **Diversity Techniques:**
    - Maximal Ratio Combining (MRC) is applied to improve signal reception.
@@ -43,13 +48,17 @@ This project aims to understand CDMA system performance under different SNR leve
 ### Unique Features
 1. **BER Analysis:** Provides insights into CDMA system BER performance under varying SNR conditions.
    ![BER Vs SNR graph](/CDMA_output_images/Figure_1.png)
+   
    This graph shows the relationship between the Signal-to-Noise Ratio (SNR) and the Bit Error Rate (BER). The x-axis represents the SNR in dB, and the y-axis represents the BER. It helps visualize how the BER changes with varying SNR levels. A lower BER indicates better signal quality.
+
    
 3. **Signal Visualization:** Offers visual representations of original and received signals for better understanding.
 
 4. **Diversity Techniques:** Implements MRC to enhance signal reception in noisy environments.
    ![Original Vs MCR reciver signal graph](/CDMA_output_images/Figure_5.png)
+   
    Similar to the previous set of plots, these graphs compare the original binary signals (in blue) with the signals received after applying Maximal Ratio Combining (MRC) technique (in green) for each user. MRC is a diversity technique used to improve signal reception. These plots show how MRC enhances the received signals compared to the original ones.
+
 
 ### Examples
 Suppose 10 users transmit 100 bits each with a maximum SNR of 20 dB. This project can analyze BER and visualize signal characteristics for this scenario.
