@@ -59,7 +59,8 @@ This project aims to understand CDMA system performance under different SNR leve
    
    Similar to the previous set of plots, these graphs compare the original binary signals (in blue) with the signals received after applying Maximal Ratio Combining (MRC) technique (in green) for each user. MRC is a diversity technique used to improve signal reception. These plots show how MRC enhances the received signals compared to the original ones.
 
-
+### Command Window View
+![Command Window View](/CDMA_output_images/Command_Window_View.png)
 ### Examples
 Suppose 10 users transmit 100 bits each with a maximum SNR of 20 dB. This project can analyze BER and visualize signal characteristics for this scenario.
 
