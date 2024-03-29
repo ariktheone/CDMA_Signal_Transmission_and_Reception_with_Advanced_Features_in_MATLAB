@@ -1,5 +1,8 @@
 ## CDMA Signal Transmission and Reception with Advanced Features
 
+### What is CDMA?
+CDMA, or Code Division Multiple Access, is a technique used in telecommunications to allow multiple users to transmit data simultaneously over a shared communication channel. In this MATLAB project, CDMA is implemented by generating spreading codes using the `randi` function.
+
 ### Overview
 This MATLAB project demonstrates CDMA signal transmission and reception, featuring BER analysis, diversity techniques, and signal visualization.
 
@@ -8,7 +11,10 @@ This MATLAB project demonstrates CDMA signal transmission and reception, featuri
    - Users input the number of users, bits, and maximum Signal-to-Noise Ratio (SNR) in dB.
 
 2. **Signal Generation:**
-   - Random spreading codes are generated for each user.
+   - The spreading codes are sequences of binary digits (0s and 1s) that are assigned to each user. These codes serve two main purposes: spreading the signal over a wider bandwidth and providing a unique signature for each user.
+   - The `randi` function is used to randomly generate spreading codes for each user. It takes as input the range of values (0 and 1) and the size of the matrix (number of users by number of bits). By using `randi`, we ensure that the spreading codes are randomly generated, providing each user with a unique code.
+   - Once the spreading codes are generated, they are used to modulate the data signals before transmission. During transmission, the modulated signals are spread across the available bandwidth using the assigned spreading codes. At the receiver end, the received signal is despread using the same spreading codes to extract the original data.
+   - CDMA allows multiple users to transmit data simultaneously by spreading the signals across a wider bandwidth using unique spreading codes. This enables efficient use of the available spectrum and allows for increased capacity in communication systems without the need for separate frequency channels for each user.
 
 3. **Simulation:**
    - Signals are transmitted and received across various SNR levels.
